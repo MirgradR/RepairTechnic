@@ -1,25 +1,3 @@
-let selectCity = document.getElementById('selectCity')
-let cities = document.querySelectorAll('option')
-let titleCity = document.querySelector('.info-title')
-
-for (let city of cities) {
-    selectCity.addEventListener('change', function() {
-        let currentCity = city.value 
-        if (city.selected) {
-            city.setAttribute('selected', 'selected')//
-            localStorage.setItem('city', city.value)//
-            let text = `Сервисный центр <span>INDESIT</span> в ${currentCity}e`
-            titleCity.innerHTML = text 
-            
-   
-        }
-    }) 
-    
-    let local = localStorage.getItem('city')//
-    //city.selected = local
-    let text = `Сервисный центр <span>INDESIT</span> в ${local}e`
-    titleCity.innerHTML = text     
-}
 
 // Slider menu
 

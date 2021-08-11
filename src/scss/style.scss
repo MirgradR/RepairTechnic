@@ -874,31 +874,31 @@
         visibility: visible; 
     }
     .popup__body {
-        max-width: 500px;
+        max-width: 400px;
         background-color: rgb(133, 163, 219);
         padding: 30px;
         border-radius: 20px;
         .popup__content {
-            font-size: 26px;
+            font-size: 22px;
             form {
                 display: flex;
                 flex-direction: column; 
                 legend {
                     align-self: center;
-                    margin-bottom: 20px;
+                    margin-bottom: 10px;
                     color: rgb(25, 25, 65);
                     font-weight: 900;
                 }  
                 input, label {
-                    margin-bottom: 20px;
+                    margin-bottom: 10px;
                 }
                 input {
                     padding: 10px 15px;
                     border-radius: 20px;
-                    font-size: 22px;
+                    font-size: 20px;
                 }
                 .btn-callback {
-                    font-size: 22px;
+                    font-size: 20px;
                     align-self: center;
                     padding: 15px 50px;
                 }

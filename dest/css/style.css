@@ -844,14 +844,14 @@ ul li {
 }
 
 .popup .popup__body {
-  max-width: 500px;
+  max-width: 400px;
   background-color: #85a3db;
   padding: 30px;
   border-radius: 20px;
 }
 
 .popup .popup__body .popup__content {
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .popup .popup__body .popup__content form {
@@ -867,24 +867,24 @@ ul li {
 .popup .popup__body .popup__content form legend {
   -ms-flex-item-align: center;
   align-self: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #191941;
   font-weight: 900;
 }
 
 .popup .popup__body .popup__content form input,
 .popup .popup__body .popup__content form label {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .popup .popup__body .popup__content form input {
   padding: 10px 15px;
   border-radius: 20px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .popup .popup__body .popup__content form .btn-callback {
-  font-size: 22px;
+  font-size: 20px;
   -ms-flex-item-align: center;
   align-self: center;
   padding: 15px 50px;
