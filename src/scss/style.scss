@@ -11,7 +11,7 @@
     content: '';
     width: 20px;
     height: 20px;
-    background: url('../img/phone-icon.png') no-repeat;
+    background: url('/img/phone-icon.png') no-repeat;
     position: absolute;
     left: -25px;
     top: 5px;
@@ -46,7 +46,7 @@
         }
         &:before {
             @extend %header-icons;
-            background-image: url('../img/gps-icon.png');
+            background-image: url('/img/gps-icon.png');
             top: 0;
         }
     }
@@ -54,7 +54,7 @@
         position: relative;
         &:before {
             @extend %header-icons;
-            background-image: url('../img/time-icon.png');
+            background-image: url('/img/time-icon.png');
             top: 10px;
             
         }
@@ -89,7 +89,7 @@
 
 .header__main {
     background-color: #F8F8F8;
-    background-image: url('../img/backgroundHeader.png'), url('../img/backblue.png');
+    background-image: url('/img/backgroundHeader.png'), url('/img/backblue.png');
     background-position: top right;
     background-repeat: no-repeat;
     height: 726px;
@@ -390,7 +390,7 @@
 // baner2 order
 
 .baner__order {
-    background-image: url('../img/banerBack.png'), url('../img/banerClean.png'), url('../img/banerWash.png');
+    background-image: url('/img/banerBack.png'), url('/img/banerClean.png'), url('/img/banerWash.png');
     background-color: #0391D3;
     background-repeat: no-repeat;
     background-position: 85%, right, 75%;
@@ -662,7 +662,7 @@
         align-items: flex-start;
         gap: 30px;
         background-color: #0391D3;
-        background-image: url('../img/priceItem11.png'), url('../img/banerClean.png'), url('../img/plita.png');
+        background-image: url('/img/priceItem11.png'), url('/img/banerClean.png'), url('/img/plita.png');
         background-repeat: no-repeat;
         background-size: 25%, 17%, 15%;
         background-position: 60%, 80%, 95%;
@@ -739,17 +739,17 @@
                 content: '';
                 width: 100px;
                 height: 100px;
-                background: url('../img/avatar1.png') no-repeat;
+                background: url('/img/avatar1.png') no-repeat;
                 position: absolute;
                 left: 170px;
                 top: -60px;
 
             }
             &:nth-child(2):before {
-                background-image: url('../img/avatar2.png');
+                background-image: url('/img/avatar2.png');
             }
             &:nth-child(3):before {
-                background-image: url('../img/avatar3.png');
+                background-image: url('/img/avatar3.png');
                 left: 135px;
             }
             cite {
