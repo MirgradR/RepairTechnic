@@ -813,7 +813,7 @@
     .questions__form {
         justify-content: center;
         display: grid;
-        grid-template-columns: repeat(2, 50%);
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         select {
             max-width: 600px;
@@ -823,7 +823,15 @@
         }
     }
 }
-
+@media (max-width: 1280px) {
+    .questions {
+        .questions__content {
+            .questions__form {
+                grid-template-columns: repeat(1, minmax(0, 100%));
+            }
+        }
+    }
+}
 // map
 
 .map {

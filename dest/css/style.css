@@ -770,7 +770,7 @@ ul li {
   -ms-flex-pack: center;
   justify-content: center;
   display: grid;
-  grid-template-columns: repeat(2, 50%);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
@@ -906,6 +906,12 @@ ul li {
   .block__price .price__content .price__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1280px) {
+  .questions .questions__content .questions__form {
+    grid-template-columns: repeat(1, minmax(0, 100%));
   }
 }
 
